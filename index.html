@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 
-<!DOCTYPE html>
-
 <html lang="ru">
     <head>
         <meta charset="utf-8">
@@ -9,4 +7,34 @@
         <title>ЗАДАНИЕ 6</title>
     </head>
 
+    <body>
+        <h1>Калькулятор стоимости услуги</h1>
+        <form>
+            Тип услуги: <br>
+            <div id="service-type">
+                <label><input type="radio" name="services" value="service-1" checked="checked"> Услуга 1</label>
+                <label><input type="radio" name="services" value="service-2"> Услуга 2</label>
+                <label><input type="radio" name="services" value="service-3"> Услуга 3</label>
+            </div>
+            <br>
+            <label>
+                Количество услуг: <br>
+                <input id="service-number" placeholder="Введите количество услуг...">
+            </label>
+            <br><br>
+            <label>
+                <select id="options">
+                    <option value="option-1">Опция 1</option>
+                    <option value="option-2">Опция 2</option>
+                    <option value="option-3">Опция 3</option>
+                </select>
+            </label>
+            <div id="properties">
+                <label><input type="checkbox" name="property-1"> Свойство 1</label>
+                <label><input type="checkbox" name="property-2"> Свойство 2</label>
+            </div>
+            <br>
+            <div id="result"></div>
+        </form>
+    </body>
 </html>
